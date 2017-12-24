@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		150D699D1FECA28C001457CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150D699C1FECA28C001457CA /* AppDelegate.swift */; };
+		150D699F1FECA28C001457CA /* WayjerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150D699E1FECA28C001457CA /* WayjerViewController.swift */; };
+		150D69A21FECA28C001457CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 150D69A01FECA28C001457CA /* Main.storyboard */; };
+		150D69A41FECA28C001457CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150D69A31FECA28C001457CA /* Assets.xcassets */; };
+		150D69A71FECA28C001457CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 150D69A51FECA28C001457CA /* LaunchScreen.storyboard */; };
+		152EF0931FEE0CBB00F6668C /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152EF0921FEE0CBB00F6668C /* CustomTextField.swift */; };
+		152EF0951FEE11F500F6668C /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152EF0941FEE11F500F6668C /* GradientView.swift */; };
+		152EF0A01FEF31E800F6668C /* WayjerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152EF09F1FEF31E800F6668C /* WayjerTests.swift */; };
+		152EF0A81FEF322E00F6668C /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152EF0A71FEF322E00F6668C /* Wage.swift */; };
+		152EF0A91FEF356000F6668C /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152EF0A71FEF322E00F6668C /* Wage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		152EF0A21FEF31E800F6668C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 150D69911FECA28C001457CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 150D69981FECA28C001457CA;
+			remoteInfo = Wayjer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		150D69991FECA28C001457CA /* Wayjer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wayjer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		150D699C1FECA28C001457CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		150D699E1FECA28C001457CA /* WayjerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WayjerViewController.swift; sourceTree = "<group>"; };
+		150D69A11FECA28C001457CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		150D69A31FECA28C001457CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		150D69A61FECA28C001457CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		150D69A81FECA28C001457CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		152EF0921FEE0CBB00F6668C /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		152EF0941FEE11F500F6668C /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		152EF09D1FEF31E800F6668C /* WayjerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WayjerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		152EF09F1FEF31E800F6668C /* WayjerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WayjerTests.swift; sourceTree = "<group>"; };
+		152EF0A11FEF31E800F6668C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		152EF0A71FEF322E00F6668C /* Wage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		150D69961FECA28C001457CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152EF09A1FEF31E800F6668C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		150D69901FECA28C001457CA = {
+			isa = PBXGroup;
+			children = (
+				150D699B1FECA28C001457CA /* Wayjer */,
+				152EF09E1FEF31E800F6668C /* WayjerTests */,
+				150D699A1FECA28C001457CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		150D699A1FECA28C001457CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				150D69991FECA28C001457CA /* Wayjer.app */,
+				152EF09D1FEF31E800F6668C /* WayjerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		150D699B1FECA28C001457CA /* Wayjer */ = {
+			isa = PBXGroup;
+			children = (
+				150D699C1FECA28C001457CA /* AppDelegate.swift */,
+				152EF0981FEE122800F6668C /* Model */,
+				152EF0971FEE122400F6668C /* View */,
+				152EF0961FEE122000F6668C /* Controller */,
+				150D69A31FECA28C001457CA /* Assets.xcassets */,
+				150D69A81FECA28C001457CA /* Info.plist */,
+			);
+			path = Wayjer;
+			sourceTree = "<group>";
+		};
+		152EF0961FEE122000F6668C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				150D699E1FECA28C001457CA /* WayjerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		152EF0971FEE122400F6668C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				150D69A01FECA28C001457CA /* Main.storyboard */,
+				150D69A51FECA28C001457CA /* LaunchScreen.storyboard */,
+				152EF0921FEE0CBB00F6668C /* CustomTextField.swift */,
+				152EF0941FEE11F500F6668C /* GradientView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		152EF0981FEE122800F6668C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				152EF0A71FEF322E00F6668C /* Wage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		152EF09E1FEF31E800F6668C /* WayjerTests */ = {
+			isa = PBXGroup;
+			children = (
+				152EF09F1FEF31E800F6668C /* WayjerTests.swift */,
+				152EF0A11FEF31E800F6668C /* Info.plist */,
+			);
+			path = WayjerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		150D69981FECA28C001457CA /* Wayjer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 150D69AB1FECA28C001457CA /* Build configuration list for PBXNativeTarget "Wayjer" */;
+			buildPhases = (
+				150D69951FECA28C001457CA /* Sources */,
+				150D69961FECA28C001457CA /* Frameworks */,
+				150D69971FECA28C001457CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wayjer;
+			productName = Wayjer;
+			productReference = 150D69991FECA28C001457CA /* Wayjer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		152EF09C1FEF31E800F6668C /* WayjerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 152EF0A41FEF31E800F6668C /* Build configuration list for PBXNativeTarget "WayjerTests" */;
+			buildPhases = (
+				152EF0991FEF31E800F6668C /* Sources */,
+				152EF09A1FEF31E800F6668C /* Frameworks */,
+				152EF09B1FEF31E800F6668C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				152EF0A31FEF31E800F6668C /* PBXTargetDependency */,
+			);
+			name = WayjerTests;
+			productName = WayjerTests;
+			productReference = 152EF09D1FEF31E800F6668C /* WayjerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		150D69911FECA28C001457CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "AR Ehsan";
+				TargetAttributes = {
+					150D69981FECA28C001457CA = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					152EF09C1FEF31E800F6668C = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 150D69981FECA28C001457CA;
+					};
+				};
+			};
+			buildConfigurationList = 150D69941FECA28C001457CA /* Build configuration list for PBXProject "Wayjer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 150D69901FECA28C001457CA;
+			productRefGroup = 150D699A1FECA28C001457CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				150D69981FECA28C001457CA /* Wayjer */,
+				152EF09C1FEF31E800F6668C /* WayjerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		150D69971FECA28C001457CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150D69A71FECA28C001457CA /* LaunchScreen.storyboard in Resources */,
+				150D69A41FECA28C001457CA /* Assets.xcassets in Resources */,
+				150D69A21FECA28C001457CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152EF09B1FEF31E800F6668C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		150D69951FECA28C001457CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150D699F1FECA28C001457CA /* WayjerViewController.swift in Sources */,
+				150D699D1FECA28C001457CA /* AppDelegate.swift in Sources */,
+				152EF0A81FEF322E00F6668C /* Wage.swift in Sources */,
+				152EF0951FEE11F500F6668C /* GradientView.swift in Sources */,
+				152EF0931FEE0CBB00F6668C /* CustomTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		152EF0991FEF31E800F6668C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				152EF0A01FEF31E800F6668C /* WayjerTests.swift in Sources */,
+				152EF0A91FEF356000F6668C /* Wage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		152EF0A31FEF31E800F6668C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 150D69981FECA28C001457CA /* Wayjer */;
+			targetProxy = 152EF0A21FEF31E800F6668C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		150D69A01FECA28C001457CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				150D69A11FECA28C001457CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		150D69A51FECA28C001457CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				150D69A61FECA28C001457CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		150D69A91FECA28C001457CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		150D69AA1FECA28C001457CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		150D69AC1FECA28C001457CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AF7QK5XC7P;
+				INFOPLIST_FILE = Wayjer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arehsan.Wayjer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		150D69AD1FECA28C001457CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AF7QK5XC7P;
+				INFOPLIST_FILE = Wayjer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arehsan.Wayjer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		152EF0A51FEF31E800F6668C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AF7QK5XC7P;
+				INFOPLIST_FILE = WayjerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arehsan.WayjerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wayjer.app/Wayjer";
+			};
+			name = Debug;
+		};
+		152EF0A61FEF31E800F6668C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AF7QK5XC7P;
+				INFOPLIST_FILE = WayjerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.arehsan.WayjerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wayjer.app/Wayjer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		150D69941FECA28C001457CA /* Build configuration list for PBXProject "Wayjer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150D69A91FECA28C001457CA /* Debug */,
+				150D69AA1FECA28C001457CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		150D69AB1FECA28C001457CA /* Build configuration list for PBXNativeTarget "Wayjer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150D69AC1FECA28C001457CA /* Debug */,
+				150D69AD1FECA28C001457CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		152EF0A41FEF31E800F6668C /* Build configuration list for PBXNativeTarget "WayjerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152EF0A51FEF31E800F6668C /* Debug */,
+				152EF0A61FEF31E800F6668C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 150D69911FECA28C001457CA /* Project object */;
+}
